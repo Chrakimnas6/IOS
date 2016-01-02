@@ -1,1 +1,1 @@
-try
+Try to simulate QQ interface

@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@class CZMessage;
+@class CZMessageFrame;
 @interface CZMessageCell : UITableViewCell
-@property (nonatomic, strong) CZMessage* message;
+@property (nonatomic, strong) CZMessageFrame* messageFrame;
 
 + (instancetype)messageCellWithTableView:(UITableView *)tableView;
 

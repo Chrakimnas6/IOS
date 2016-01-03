@@ -7,6 +7,8 @@
 //
 
 #import "CZMessageCell.h"
+#import "CZMessageFrame.h"
+#import "CZMessage.h"
 @interface CZMessageCell()
 
 @property (nonatomic, weak) UILabel *timeView;
@@ -51,9 +53,27 @@
 }
 
 //3 重写属性的setter方法
-- (void)setMessage:(CZMessage *)message
+- (void)setMessageFrame:(CZMessageFrame *)messageFrame
 {
-    _message = message;
+    _messageFrame = messageFrame;
+    CZMessage *msg = messageFrame.message;
+    //子控件赋值
+    self.timeView.text = msg.time;
+//    if (msg.type == CZMessageTypeSelf){
+//        self.iconView.image = [UIImage imageNamed:@"me"];
+//    }
+//    self.iconView.image = [UIImage imageNamed:@"other"];
+    
+    NSString *imgName = msg.type == CZMessageTypeSelf ? @"me" : @"other";
+    self.iconView.image = [UIImage imageNamed:imgName];
+    
+    [self.textView setTitle:msg.text forState:UIControlStateNormal];
+    
+    //设置子控件frame
+    self.timeView.frame = messageFrame.timeFrame;
+    self.iconView.frame = messageFrame.iconFrame;
+    self.textView.frame = messageFrame.textFrame;
+    
     
 }
 @end

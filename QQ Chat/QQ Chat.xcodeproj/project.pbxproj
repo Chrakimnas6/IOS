@@ -17,6 +17,7 @@
 		0575284F1C375084008DF890 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0575284E1C375084008DF890 /* messages.plist */; };
 		057528591C3751BA008DF890 /* CZMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 057528581C3751BA008DF890 /* CZMessage.m */; };
 		0575285C1C3763EB008DF890 /* CZMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0575285B1C3763EB008DF890 /* CZMessageCell.m */; };
+		057FF42E1C3898020047C4E5 /* CZMessageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 057FF42D1C3898020047C4E5 /* CZMessageFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		057528581C3751BA008DF890 /* CZMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZMessage.m; sourceTree = "<group>"; };
 		0575285A1C3763EB008DF890 /* CZMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZMessageCell.h; sourceTree = "<group>"; };
 		0575285B1C3763EB008DF890 /* CZMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZMessageCell.m; sourceTree = "<group>"; };
+		057FF42C1C3898020047C4E5 /* CZMessageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZMessageFrame.h; sourceTree = "<group>"; };
+		057FF42D1C3898020047C4E5 /* CZMessageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZMessageFrame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +162,8 @@
 			children = (
 				057528571C3751BA008DF890 /* CZMessage.h */,
 				057528581C3751BA008DF890 /* CZMessage.m */,
+				057FF42C1C3898020047C4E5 /* CZMessageFrame.h */,
+				057FF42D1C3898020047C4E5 /* CZMessageFrame.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				057FF42E1C3898020047C4E5 /* CZMessageFrame.m in Sources */,
 				057528591C3751BA008DF890 /* CZMessage.m in Sources */,
 				057528311C374D0C008DF890 /* ViewController.m in Sources */,
 				0575285C1C3763EB008DF890 /* CZMessageCell.m in Sources */,
@@ -474,6 +480,7 @@
 				0575284A1C374D0C008DF890 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0575284B1C374D0C008DF890 /* Build configuration list for PBXNativeTarget "QQ ChatTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +489,7 @@
 				0575284D1C374D0C008DF890 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

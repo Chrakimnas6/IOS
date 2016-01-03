@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>text</key>
-		<string>喂，2B！</string>
+		<string>Hey, man</string>
 		<key>time</key>
 		<string>前天 10:27</string>
 		<key>type</key>
@@ -12,7 +12,7 @@
 	</dict>
 	<dict>
 		<key>text</key>
-		<string>问你个严肃的事</string>
+		<string>something to ask you</string>
 		<key>time</key>
 		<string>前天 10:28</string>
 		<key>type</key>
@@ -20,7 +20,7 @@
 	</dict>
 	<dict>
 		<key>text</key>
-		<string>你妹夫啊，你才2B！说，什么事？</string>
+		<string>what</string>
 		<key>time</key>
 		<string>昨天 20:05</string>
 		<key>type</key>
@@ -28,7 +28,7 @@
 	</dict>
 	<dict>
 		<key>text</key>
-		<string>你姐夫啊，我就想问下：你是不是我最好的朋友？</string>
+		<string>I&apos;m ur best friend right?</string>
 		<key>time</key>
 		<string>昨天 20:07</string>
 		<key>type</key>
@@ -36,7 +36,7 @@
 	</dict>
 	<dict>
 		<key>text</key>
-		<string>不借</string>
+		<string>I won&apos;t lend</string>
 		<key>time</key>
 		<string>昨天 20:07</string>
 		<key>type</key>
@@ -44,7 +44,7 @@
 	</dict>
 	<dict>
 		<key>text</key>
-		<string>借你妹夫啊，老子又不缺钱。你就回答“是”或者“不是”。</string>
+		<string>wtf I don&apos;t need money just want u to answer</string>
 		<key>time</key>
 		<string>昨天 20:07</string>
 		<key>type</key>
@@ -52,7 +52,7 @@
 	</dict>
 	<dict>
 		<key>text</key>
-		<string>是</string>
+		<string>yes</string>
 		<key>time</key>
 		<string>昨天 20:11</string>
 		<key>type</key>
@@ -60,7 +60,7 @@
 	</dict>
 	<dict>
 		<key>text</key>
-		<string>刚才看了部非常感人的电视剧，电视上说狗才是人类最好的朋友，所以我想确认一下</string>
+		<string>Watched a movie yesterday, it said dog is human&apos;s best friend</string>
 		<key>time</key>
 		<string>昨天 20:15</string>
 		<key>type</key>
@@ -68,7 +68,7 @@
 	</dict>
 	<dict>
 		<key>text</key>
-		<string>你妈B的！！！滚！！！</string>
+		<string>fuck off</string>
 		<key>time</key>
 		<string>昨天 20:15</string>
 		<key>type</key>
